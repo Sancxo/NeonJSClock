@@ -10,6 +10,23 @@ article {
     align-items: center;
     color: black;
 }
+.button {
+    position: absolute;
+    top: 2vh;
+    left: 1vw;
+}
+button {
+    background-color: black;
+    color: chartreuse;
+    border: solid 1px chartreuse;
+    border-radius: 2em;
+}
+button:hover {
+    cursor: pointer;
+    background: chartreuse;
+    color: black;
+    box-shadow: 0 0 10px 1px chartreuse;
+}
 .calendar, #loading-message {
     font-family: 'Teko', sans-serif;
     font-size: 3vh;
