@@ -30,5 +30,8 @@ function moveClock() {
     hourHand.style.transform = "rotate(" + hours*30 + "deg)";
 };
 
+setTimeout(endLoad = () => {
+    document.getElementById('loading-message').style.display = 'none';
+}, 1000);
 setInterval(printTime, 1000);
 setInterval(moveClock, 1000);

@@ -10,7 +10,7 @@ article {
     align-items: center;
     color: black;
 }
-.calendar {
+.calendar, #loading-message {
     font-family: 'Teko', sans-serif;
     font-size: 3vh;
     line-height: 0.5vh;
